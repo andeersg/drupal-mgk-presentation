@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/white.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-background-image="bouvet-ribbon.png" data-background-color="#FFFFFF" data-background-position="top right" data-background-size="auto auto">
+          <h1>Midtre Gauldal Kommune</h1>
+        </section>
+
+        <section>
+          <h2>Table of content</h2>
+          <ul>
+            <li>The client</li>
+            <li>The old site</li>
+            <li>The process</li>
+          </ul>
+        </section>
+
+        <section>
+          Get started
+        </section>
+
+        <section>
+          
+        </section>
+
+      </div>
+    </div>
+    <script src="js/reveal.js"></script>
+    <script>
+      for (var slide of document.getElementsByTagName('section')){
+        if (!slide.getAttribute('data-background')) {
+          slide.setAttribute('data-background-image', 'bouvet-ribbon.png');
+          slide.setAttribute('data-background-color', '#FFFFFF');
+          slide.setAttribute('data-background-position', 'top right');
+          slide.setAttribute('data-background-size', 'auto auto');
+        }
+      }
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
