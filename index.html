@@ -9,23 +9,52 @@
 
         <section data-background-image="bouvet-ribbon.png" data-background-color="#FFFFFF" data-background-position="top right" data-background-size="auto auto">
           <h1>Midtre Gauldal Kommune</h1>
+          <a href="https://www.mgk.no">MGK.no</a>
+          <div class="split">
+            <span>Anders Grendstadbakk</span>
+            <span>Bouvet</span>
+          </div>
         </section>
 
         <section>
-          <h2>Table of content</h2>
+          <h2>Parts</h2>
           <ul>
-            <li>The client</li>
-            <li>The old site</li>
-            <li>The process</li>
+            <li>Drupal 8</li>
+            <li class="fragment">Composer (<a href="https://github.com/drupal-composer/drupal-project">Drupal-project</a>)</li>
+            <li class="fragment">Panelizer</li>
+            <li class="fragment">Search API</li>
+            <li class="fragment">Webforms</li>
+            <li class="fragment">Map of schools and kindergartens</li>
+            <li class="fragment">Integration with Kommuneforlaget</li>
+            <li class="fragment">REST API</li>
+            <li class="fragment">LDAP</li>
           </ul>
         </section>
 
         <section>
-          Get started
+          <img src="screenshot.png" />
+        </section>
+        
+        <section>
+          <img src="screenshot2.png" />
+        </section>
+        
+        <section>
+          <img src="screenshot3.png" />
         </section>
 
         <section>
-          
+          <h2>Any problems?</h2>
+          <ul>
+            <li class="fragment">Alpha versions</li>
+            <li class="fragment">Composer</li>
+            <li class="fragment">Config</li>
+            <li class="fragment">LDAP</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="fragment">Questions?</h2>
         </section>
 
       </div>
@@ -36,11 +65,13 @@
         if (!slide.getAttribute('data-background')) {
           slide.setAttribute('data-background-image', 'bouvet-ribbon.png');
           slide.setAttribute('data-background-color', '#FFFFFF');
-          slide.setAttribute('data-background-position', 'top right');
+          slide.setAttribute('data-background-position', 'right top');
           slide.setAttribute('data-background-size', 'auto auto');
         }
       }
-      Reveal.initialize();
+      Reveal.initialize({
+        controls: false
+      });
     </script>
   </body>
 </html>
